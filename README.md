@@ -10,8 +10,8 @@ Zenn 上で公開されている記事のソース（Markdown 形式）は、こ
 
 以下の記事は Zenn にて公開中です：
 
-- [React + TypeScript で「保存ボタンを 2 回押さないと動かない」問題の解決方法](https://zenn.dev/yucco/articles/26463c7e00b2f6)
-- [ドラッグ＆ドロップでリスト並び替え！@dnd-kit を使った実装の工夫](https://zenn.dev/yucco/articles/e25cdcd6e839b6)
+- [React + TypeScript で「保存ボタンを 2 回押さないと動かない」問題の解決方法](https://zenn.dev/yucco/articles/e25cdcd6e839b6)
+- [ドラッグ＆ドロップでリスト並び替え！@dnd-kit を使った実装の工夫](https://zenn.dev/yucco/articles/26463c7e00b2f6)
 
 ---
 
