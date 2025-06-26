@@ -3,7 +3,7 @@ title: "1年半の成長を振り返ってストーリーにしてみた件"
 emoji: "🚀"
 type: "tech"
 topics: ["learning", "internship", "javascript", "react", "typescript"]
-published: false
+published: true
 ---
 
 :::message
