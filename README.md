@@ -14,6 +14,7 @@ Zenn 上で公開されている記事のソース（Markdown 形式）は、こ
 
 - [React + TypeScript で「保存ボタンを 2 回押さないと動かない」問題の解決方法](https://zenn.dev/yucco/articles/e25cdcd6e839b6)
 - [ドラッグ＆ドロップでリスト並び替え！@dnd-kit を使った実装の工夫](https://zenn.dev/yucco/articles/26463c7e00b2f6)
+- [1年半の成長を振り返ってストーリーにしてみた件](https://zenn.dev/yucco/articles/2025-06-25-growth-story)
 
 ---
 
@@ -47,4 +48,4 @@ zenn preview
 ## 📝 補足
 
 このリポジトリはポートフォリオとして公開しています。
-Zenn と GitHub を連携し、構造的に記事を管理・公開するワークフローの一例としてご活用ください。
+Cursor と Zenn と GitHub を連携し、構造的に記事を作成・管理・公開するワークフローの一例としてご活用ください。
