@@ -1,0 +1,20 @@
+{
+	"name": "tech-blog-1",
+	"version": "1.0.0",
+	"description": "テックブログ記事を管理するためのプロジェクト",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"task": "task-master-ai",
+		"task:init": "task-master-ai init",
+		"task:list": "task-master-ai list",
+		"task:next": "task-master-ai next"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@biomejs/biome": "^2.0.6",
+		"task-master-ai": "latest"
+	}
+}

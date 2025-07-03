@@ -1,0 +1,20 @@
+{
+	"projectName": "tech-blog-1",
+	"projectDescription": "テックブログ記事を管理するためのプロジェクト",
+	"version": "1.0.0",
+	"global": {
+		"defaultTag": "master",
+		"defaultSubtasks": 5,
+		"defaultPriority": "medium",
+		"logLevel": "info"
+	},
+	"models": {
+		"main": "claude-3-sonnet-20240229",
+		"research": "claude-3-sonnet-20240229",
+		"fallback": "claude-3-haiku-20240307"
+	},
+	"parameters": {
+		"maxTokens": 4096,
+		"temperature": 0.7
+	}
+}

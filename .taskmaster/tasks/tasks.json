@@ -1,0 +1,98 @@
+{
+  "master": {
+    "tasks": [
+      {
+        "id": 1,
+        "title": "Zenn記事執筆: TaskMasterでタスク自動分解をやってみた",
+        "description": "実際のTaskMaster使用体験を記事化",
+        "details": "",
+        "testStrategy": "",
+        "status": "done",
+        "dependencies": [],
+        "priority": "high",
+        "subtasks": [
+          {
+            "id": 1,
+            "title": "記事の構成・アウトライン作成",
+            "description": "読者が理解しやすい構成を考える",
+            "details": "",
+            "status": "done",
+            "dependencies": [],
+            "parentTaskId": 1
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "ハンドメイド雑貨ECサイト開発",
+        "description": "オンラインハンドメイド雑貨ショップの開発。商品カタログ、カート、会員機能、決済、管理画面を含む",
+        "details": "",
+        "testStrategy": "",
+        "status": "pending",
+        "dependencies": [],
+        "priority": "high",
+        "subtasks": [
+          {
+            "id": 1,
+            "title": "プロジェクト環境設定",
+            "description": "React+TypeScript、Node.js+Express、MongoDB環境構築",
+            "details": "",
+            "status": "done",
+            "dependencies": [],
+            "parentTaskId": 2
+          },
+          {
+            "id": 2,
+            "title": "データベース設計",
+            "description": "商品、ユーザー、注文のスキーマ設計とER図作成",
+            "details": "",
+            "status": "in-progress",
+            "dependencies": [],
+            "parentTaskId": 2
+          },
+          {
+            "id": 3,
+            "title": "バックエンドAPI開発",
+            "description": "商品API、ユーザー認証API、注文APIの開発",
+            "details": "",
+            "status": "pending",
+            "dependencies": [],
+            "parentTaskId": 2
+          },
+          {
+            "id": 4,
+            "title": "フロントエンドUI開発",
+            "description": "商品一覧、詳細、カート、ログイン画面のReactコンポーネント開発",
+            "details": "",
+            "status": "pending",
+            "dependencies": [],
+            "parentTaskId": 2
+          },
+          {
+            "id": 5,
+            "title": "決済システム統合",
+            "description": "Stripe API統合とテスト決済機能の実装",
+            "details": "",
+            "status": "pending",
+            "dependencies": [],
+            "parentTaskId": 2
+          },
+          {
+            "id": 6,
+            "title": "テスト・デプロイ",
+            "description": "ユニットテスト・E2Eテスト作成、本番環境デプロイ設定",
+            "details": "",
+            "status": "pending",
+            "dependencies": [],
+            "parentTaskId": 2
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "created": "2025-07-02T08:47:48.288Z",
+      "updated": "2025-07-02T09:14:10.769Z",
+      "description": "Tasks for master context"
+    }
+  }
+}
