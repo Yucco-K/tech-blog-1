@@ -118,6 +118,9 @@ npx task-master-ai init -y
 # Step 5: モデル設定（確認・設定）
 npx task-master-ai models
 # 必要に応じて: npx task-master-ai models --setup
+
+> ※補足: 私のMac環境では `npx task-master models` の方がうまくモデル設定が表示されました。
+> `task-master` は `task-master-ai` のエイリアスとして利用できます。
 ```
 
 **私が感じた特徴：**
