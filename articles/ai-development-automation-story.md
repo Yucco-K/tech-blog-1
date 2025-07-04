@@ -392,5 +392,7 @@ Cursor と TaskMaster の組み合わせは初めてでしたが、意外とス�
 - [TaskMaster ドキュメント](https://www.task-master.dev/)
 - [Cursor AI コーディング支援](https://cursor.sh/)
 - [GitHub CLI ガイド](https://cli.github.com/)
+- [claude-task-master GitHubリポジトリ](https://github.com/eyaltoledano/claude-task-master?tab=readme-ov-file)
+- [claude-task-master チュートリアル（docs/tutorial.md）](https://github.com/eyaltoledano/claude-task-master/blob/main/docs/tutorial.md)
 
 #AI #開発効率化 #TaskMaster #Cursor #GitHub CLI
