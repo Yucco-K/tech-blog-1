@@ -391,8 +391,9 @@ Cursor と TaskMaster の組み合わせは初めてでしたが、意外とス�
 
 ## 関連記事
 
-- [PlaywrightとTaskMasterでTODOアプリの自動構築デモ - 驚きの仕組みを調べてみた！](https://zenn.dev/yucco/articles/article-1-auto-build-demo)
-- [PlaywrightとTaskMasterでTODOアプリの自動バグ修正デモ - 驚きの仕組みを試してみた！](https://zenn.dev/yucco/articles/article-2-bug-fix-demo)
+https://zenn.dev/yucco/articles/article-1-auto-build-demo
+
+https://zenn.dev/yucco/articles/article-2-bug-fix-demo
 
 ---
 
