@@ -183,13 +183,6 @@ task-master models
 # ✅ OpenRouter: Connected
 ```
 
----
-
-## 関連記事
-
-- [PlaywrightとTaskMasterでTODOアプリの自動構築デモ - 驚きの仕組みを調べてみた！](https://zenn.dev/yucco/articles/article-1-auto-build-demo)
-- [PlaywrightとTaskMasterでTODOアプリの自動バグ修正デモ - 驚きの仕組みを試してみた！](https://zenn.dev/yucco/articles/article-2-bug-fix-demo)
-
 ## AI ツールを実際に試してみる！
 
 :::message
@@ -393,6 +386,13 @@ Cursor と TaskMaster の組み合わせは初めてでしたが、意外とス�
 まだまだ勉強中の身ですが、AI ツールの可能性に非常に関心を持っています。技術の進歩についていけるよう、これからも学習を続けていこうと思います。
 
 **少しでも参考になれば幸いです！** ✨
+
+---
+
+## 関連記事
+
+- [PlaywrightとTaskMasterでTODOアプリの自動構築デモ - 驚きの仕組みを調べてみた！](https://zenn.dev/yucco/articles/article-1-auto-build-demo)
+- [PlaywrightとTaskMasterでTODOアプリの自動バグ修正デモ - 驚きの仕組みを試してみた！](https://zenn.dev/yucco/articles/article-2-bug-fix-demo)
 
 ---
 
