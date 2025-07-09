@@ -196,11 +196,6 @@ this.fixSteps.forEach((step, index) => {
 
 ---
 
-## 関連記事
-
-- [修行中エンジニアがAIツールを試してみたら想像以上にすごかった体験談](https://zenn.dev/yucco/articles/ai-development-automation-story)
-- [PlayWrightとTaskMasterで TODOアプリの自動構築デモ - 驚きの仕組みを調べてみた！](https://zenn.dev/yucco/articles/article-1-auto-build-demo)
-
 ## 実際に試してみよう！
 
 ### まずはシンプルなバグ修正デモから試してみよう
@@ -484,6 +479,12 @@ VM543:51 [14:35:45] 🎉 すべてのテストが通りました！
 知識も経験もまだ浅い私ですが、AIツールの可能性にとても魅力を感じています。今後も地道に学びを重ねていきたいと思います。
 
 **少しでも参考になれば幸いです！** ✨
+
+## 関連記事
+
+https://zenn.dev/yucco/articles/ai-development-automation-story
+
+https://zenn.dev/yucco/articles/article-1-auto-build-demo
 
 ## 参考リンク
 

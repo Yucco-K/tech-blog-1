@@ -169,11 +169,6 @@ this.buildSteps.forEach((step, index) => {
 
 ---
 
-## 関連記事
-
-- [修行中エンジニアがAIツールを試してみたら想像以上にすごかった体験談](https://zenn.dev/yucco/articles/ai-development-automation-story)
-- [PlayWrightとTaskMasterで TODOアプリの自動バグ修正デモ - 驚きの仕組みを試してみた！](https://zenn.dev/yucco/articles/article-2-bug-fix-demo)
-
 ## 実際に試してみよう！
 
 実際のTODOアプリの自動構築を体験してみてください：
@@ -400,6 +395,12 @@ console.log("✅ デモが正常に開始されました");
 知識も経験もまだ浅い私ですが、AIツールの可能性にとても魅力を感じています。今後も地道に学びを重ねていきたいと思います。
 
 **少しでも参考になれば幸いです！** ✨
+
+## 関連記事
+
+https://zenn.dev/yucco/articles/ai-development-automation-story
+
+https://zenn.dev/yucco/articles/article-2-bug-fix-demo
 
 ## 参考リンク
 
