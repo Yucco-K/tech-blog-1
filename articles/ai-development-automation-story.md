@@ -3,7 +3,7 @@ title: "修行中エンジニアがAIツールを試してみたら想像以上�
 emoji: "🤖"
 type: "tech"
 topics: ["ai", "開発効率化", "タスク管理", "cursor", "taskmaster"]
-published: false
+published: true
 ---
 
 # はじめに
@@ -182,6 +182,13 @@ task-master models
 # ✅ Anthropic Claude: Found
 # ✅ OpenRouter: Connected
 ```
+
+---
+
+## 関連記事
+
+- [PlayWrightとTaskMasterで TODOアプリの自動構築デモ - 驚きの仕組みを調べてみた！](https://zenn.dev/yucco/articles/article-1-auto-build-demo)
+- [PlayWrightとTaskMasterで TODOアプリの自動バグ修正デモ - 驚きの仕組みを試してみた！](https://zenn.dev/yucco/articles/article-2-bug-fix-demo)
 
 ## AI ツールを実際に試してみる！
 
@@ -396,5 +403,3 @@ Cursor と TaskMaster の組み合わせは初めてでしたが、意外とス�
 - [GitHub CLI ガイド](https://cli.github.com/)
 - [claude-task-master GitHubリポジトリ](https://github.com/eyaltoledano/claude-task-master?tab=readme-ov-file)
 - [claude-task-master チュートリアル（docs/tutorial.md）](https://github.com/eyaltoledano/claude-task-master/blob/main/docs/tutorial.md)
-
-#AI #開発効率化 #TaskMaster #Cursor #GitHub CLI
