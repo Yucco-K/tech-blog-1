@@ -1,9 +1,9 @@
 ---
 title: "PlayWrightとTaskMasterで TODOアプリの自動バグ修正デモ - 驚きの仕組みを試してみた！"
-emoji: "🔧"
+emoji: "🤩"
 type: "tech"
 topics: ["playwright", "taskmaster", "cursor", "AI駆動開発", "テスト自動化"]
-published: false
+published: true
 ---
 
 :::message alert
@@ -20,6 +20,8 @@ published: false
 :::
 
 ## はじめに
+
+こんにちは ⭐️ ソフトウェアエンジニアを目指して修行中の Yuki です！
 
 最近、開発TMのリーダーにPlayWrightのデモを見せてもらったことをきっかけに、自分でもUI自動構築のデモを作りたくなっていろいろ試行錯誤してみました。初心者なりに試してみた結果、興味深い発見があったので、その体験を共有してみます。
 
@@ -157,7 +159,7 @@ this.fixSteps.forEach((step, index) => {
 
 ### パフォーマンスとセキュリティ例
 
-- **検出時間**: 高速（1秒間隔）
+- **検出時間**: 高速
 - **修正時間**: 即座
 - **総処理時間**: 8秒以内
 - **セキュリティ**: XSS対策、入力検証、安全なDOM操作
@@ -196,8 +198,8 @@ this.fixSteps.forEach((step, index) => {
 
 ## 関連記事
 
-- [修行中エンジニアがAIツールを試してみたら想像以上にすごかった体験談](ai-development-automation-story.md)
-- [PlayWrightとTaskMasterで TODOアプリの自動構築デモ - 驚きの仕組みを調べてみた！](article-1-auto-build-demo.md)
+- [修行中エンジニアがAIツールを試してみたら想像以上にすごかった体験談](https://zenn.dev/yucco/articles/ai-development-automation-story)
+- [PlayWrightとTaskMasterで TODOアプリの自動構築デモ - 驚きの仕組みを調べてみた！](https://zenn.dev/yucco/articles/article-1-auto-build-demo)
 
 ## 実際に試してみよう！
 
