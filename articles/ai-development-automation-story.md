@@ -187,8 +187,8 @@ task-master models
 
 ## 関連記事
 
-- [PlayWrightとTaskMasterで TODOアプリの自動構築デモ - 驚きの仕組みを調べてみた！](https://zenn.dev/yucco/articles/article-1-auto-build-demo)
-- [PlayWrightとTaskMasterで TODOアプリの自動バグ修正デモ - 驚きの仕組みを試してみた！](https://zenn.dev/yucco/articles/article-2-bug-fix-demo)
+- [PlaywrightとTaskMasterでTODOアプリの自動構築デモ - 驚きの仕組みを調べてみた！](https://zenn.dev/yucco/articles/article-1-auto-build-demo)
+- [PlaywrightとTaskMasterでTODOアプリの自動バグ修正デモ - 驚きの仕組みを試してみた！](https://zenn.dev/yucco/articles/article-2-bug-fix-demo)
 
 ## AI ツールを実際に試してみる！
 
