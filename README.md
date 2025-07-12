@@ -16,7 +16,7 @@ Zenn 上で公開されている記事のソース（Markdown 形式）は、こ
 - [ドラッグ＆ドロップでリスト並び替え！@dnd-kit を使った実装の工夫](https://zenn.dev/yucco/articles/26463c7e00b2f6)
 - [1年半の成長を振り返ってストーリーにしてみた件](https://zenn.dev/yucco/articles/2025-06-25-growth-story)
 
-### 🤖 NEW! AI駆動開発体験シリーズ（2025/7/9公開）
+#### 🤖 NEW! AI駆動開発体験シリーズ（2025/7/9公開）
 
 - [修行中エンジニアがAIツールを試してみたら想像以上にすごかった体験談](https://zenn.dev/yucco/articles/ai-development-automation-story)
 - [PlayWrightとTaskMasterで TODOアプリの自動構築デモ - 驚きの仕組みを調べてみた！](https://zenn.dev/yucco/articles/article-1-auto-build-demo)
