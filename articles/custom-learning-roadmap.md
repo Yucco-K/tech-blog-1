@@ -55,15 +55,15 @@ published: true
 
 ```mermaid
 flowchart TD
-  A[既存実装の課題と範囲を把握する] --> B[既存仕様と不足仕様を整理する]
-  B --> C[データの流れと学習導線を追う]
-  C --> D[プロジェクト標準との差分を確認する]
-  D --> E[機能を実装・再構成する]
-  E --> F[UI・API・DBを通して検証する]
+  A["🔍 既存実装の課題と<br/>範囲を把握する"] --> B["📋 既存仕様と<br/>不足仕様を整理する"]
+  B --> C["🔄 データの流れと<br/>学習導線を追う"]
+  C --> D["📐 プロジェクト標準との<br/>差分を確認する"]
+  D --> E["⚙️ 機能を実装・<br/>再構成する"]
+  E --> F["✅ UI・API・DBを<br/>通して検証する"]
 
+  classDef gray fill:#f3f4f6,stroke:#6b7280,color:#374151
   classDef blue fill:#dbeafe,stroke:#2563eb,color:#1e3a5f
   classDef green fill:#dcfce7,stroke:#16a34a,color:#14532d
-  classDef gray fill:#f3f4f6,stroke:#6b7280,color:#374151
   class A,B,C,D gray
   class E blue
   class F green
@@ -96,13 +96,13 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-  A[コース] --> B[レッスングループ]
-  B --> C[レッスン]
-  C --> D[チュートリアル]
+  A["📚 Lv.1 — コース"] --> B["📂 Lv.2 — レッスングループ"]
+  B --> C["📄 Lv.3 — レッスン"]
+  C --> D["📝 Lv.4 — チュートリアル"]
 
   classDef blue fill:#dbeafe,stroke:#2563eb,color:#1e3a5f
-  classDef green fill:#dcfce7,stroke:#16a34a,color:#14532d
   classDef gray fill:#f3f4f6,stroke:#6b7280,color:#374151
+  classDef green fill:#dcfce7,stroke:#16a34a,color:#14532d
   class A blue
   class B,C gray
   class D green
@@ -129,9 +129,9 @@ await saveOrder(orderedItems)
 
 ```mermaid
 flowchart TD
-  A[基礎文法 — 完了] --> B[コンポーネント設計 — 完了]
-  B --> C[API設計 — 学習中]
-  C --> D[データベース — 未着手]
+  A(["✅ 基礎文法<br/>完了"]) --> B(["✅ コンポーネント設計<br/>完了"])
+  B --> C(["▶️ API設計<br/>学習中"])
+  C -.-> D(["⬜ データベース<br/>未着手"])
 
   classDef green fill:#dcfce7,stroke:#16a34a,color:#14532d
   classDef blue fill:#dbeafe,stroke:#2563eb,color:#1e3a5f
@@ -178,14 +178,13 @@ const achievementRatio = calculateCourseAchievement(
 tRPCを利用し、ロードマップの作成・取得・更新・削除を型安全なプロシージャとして整理しました。
 
 ```mermaid
-flowchart TD
-  subgraph procedures[" "]
-    direction TB
-    A["create — 新規ロードマップを作成"]
-    B["getById — 管理画面向けに取得"]
-    C["getBySlug — 公開ページ向けに取得"]
-    D["update — タイトル・教材・公開状態などを更新"]
-    E["remove — ロードマップと関連データを削除"]
+flowchart LR
+  subgraph procedures["tRPC プロシージャ一覧"]
+    A["➕ create<br/>新規ロードマップを作成"]
+    B["🔍 getById<br/>管理画面向けに取得"]
+    C["🔗 getBySlug<br/>公開ページ向けに取得"]
+    D["✏️ update<br/>タイトル・教材・<br/>公開状態などを更新"]
+    E["🗑️ remove<br/>ロードマップと<br/>関連データを削除"]
   end
 
   classDef blue fill:#dbeafe,stroke:#2563eb,color:#1e3a5f
