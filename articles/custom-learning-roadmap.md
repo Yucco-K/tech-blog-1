@@ -53,18 +53,20 @@ published: true
 
 既存コードをそのまま継ぎ足すのではなく、前任者の実装意図、既存データ構造、既存の学習導線を確認したうえで、利用できる部分と作り直す部分を整理しました。
 
-```text
-既存実装の課題と範囲を把握する
-  ↓
-既存仕様と不足仕様を整理する
-  ↓
-データの流れと学習導線を追う
-  ↓
-プロジェクト標準との差分を確認する
-  ↓
-機能を実装・再構成する
-  ↓
-UI・API・DBを通して検証する
+```mermaid
+flowchart TD
+  A[既存実装の課題と範囲を把握する] --> B[既存仕様と不足仕様を整理する]
+  B --> C[データの流れと学習導線を追う]
+  C --> D[プロジェクト標準との差分を確認する]
+  D --> E[機能を実装・再構成する]
+  E --> F[UI・API・DBを通して検証する]
+
+  classDef blue fill:#dbeafe,stroke:#2563eb,color:#1e3a5f
+  classDef green fill:#dcfce7,stroke:#16a34a,color:#14532d
+  classDef gray fill:#f3f4f6,stroke:#6b7280,color:#374151
+  class A,B,C,D gray
+  class E blue
+  class F green
 ```
 
 ## 3. プロジェクト標準への適合
@@ -92,11 +94,18 @@ UI・API・DBを通して検証する
 
 コースやレッスングループを階層的に表示し、コース単位・レッスングループ単位で教材を選択できるようにしました。
 
-```text
-コース
-  └ レッスングループ
-      └ レッスン
-          └ チュートリアル
+```mermaid
+flowchart TD
+  A[コース] --> B[レッスングループ]
+  B --> C[レッスン]
+  C --> D[チュートリアル]
+
+  classDef blue fill:#dbeafe,stroke:#2563eb,color:#1e3a5f
+  classDef green fill:#dcfce7,stroke:#16a34a,color:#14532d
+  classDef gray fill:#f3f4f6,stroke:#6b7280,color:#374151
+  class A blue
+  class B,C gray
+  class D green
 ```
 
 ### 4.3 選択済み教材の並び替え
@@ -118,14 +127,18 @@ await saveOrder(orderedItems)
 
 ロードマップの概要、教材、学習順序、完了状態、進捗を表示し、進捗は垂直タイムラインで可視化しました。
 
-```text
-● 基礎文法                 完了
-│
-● コンポーネント設計       完了
-│
-◉ API設計                  学習中
-│
-○ データベース             未着手
+```mermaid
+flowchart TD
+  A[基礎文法 — 完了] --> B[コンポーネント設計 — 完了]
+  B --> C[API設計 — 学習中]
+  C --> D[データベース — 未着手]
+
+  classDef green fill:#dcfce7,stroke:#16a34a,color:#14532d
+  classDef blue fill:#dbeafe,stroke:#2563eb,color:#1e3a5f
+  classDef gray fill:#f3f4f6,stroke:#6b7280,color:#374151
+  class A,B green
+  class C blue
+  class D gray
 ```
 
 ## 6. コース経由とロードマップ経由の整合性
@@ -164,12 +177,23 @@ const achievementRatio = calculateCourseAchievement(
 
 tRPCを利用し、ロードマップの作成・取得・更新・削除を型安全なプロシージャとして整理しました。
 
-```text
-create       └ 新規ロードマップを作成
-getById      └ 管理画面向けに取得
-getBySlug    └ 公開ページ向けに取得
-update       └ タイトル・教材・公開状態などを更新
-remove       └ ロードマップと関連データを削除
+```mermaid
+flowchart TD
+  subgraph procedures[" "]
+    direction TB
+    A["create — 新規ロードマップを作成"]
+    B["getById — 管理画面向けに取得"]
+    C["getBySlug — 公開ページ向けに取得"]
+    D["update — タイトル・教材・公開状態などを更新"]
+    E["remove — ロードマップと関連データを削除"]
+  end
+
+  classDef blue fill:#dbeafe,stroke:#2563eb,color:#1e3a5f
+  classDef green fill:#dcfce7,stroke:#16a34a,color:#14532d
+  classDef gray fill:#f3f4f6,stroke:#6b7280,color:#374151
+  class A,D blue
+  class B,C green
+  class E gray
 ```
 
 ### 7.2 Zodによる入力バリデーション
