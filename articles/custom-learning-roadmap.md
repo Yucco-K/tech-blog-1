@@ -178,15 +178,24 @@ const achievementRatio = calculateCourseAchievement(
 tRPCを利用し、ロードマップの作成・取得・更新・削除を型安全なプロシージャとして整理しました。
 
 ```mermaid
-flowchart LR
+flowchart TD
   subgraph procedures["tRPC プロシージャ一覧"]
-    A["➕ create<br/>新規ロードマップを作成"]
-    B["🔍 getById<br/>管理画面向けに取得"]
-    C["🔗 getBySlug<br/>公開ページ向けに取得"]
-    D["✏️ update<br/>タイトル・教材・<br/>公開状態などを更新"]
-    E["🗑️ remove<br/>ロードマップと<br/>関連データを削除"]
+    direction TB
+    subgraph row1[" "]
+      direction LR
+      A["➕ create<br/>新規ロードマップを作成"]
+      B["🔍 getById<br/>管理画面向けに取得"]
+      C["🔗 getBySlug<br/>公開ページ向けに取得"]
+    end
+    subgraph row2[" "]
+      direction LR
+      D["✏️ update<br/>タイトル・教材・<br/>公開状態などを更新"]
+      E["🗑️ remove<br/>ロードマップと<br/>関連データを削除"]
+    end
   end
 
+  style row1 fill:none,stroke:none
+  style row2 fill:none,stroke:none
   classDef blue fill:#dbeafe,stroke:#2563eb,color:#1e3a5f
   classDef green fill:#dcfce7,stroke:#16a34a,color:#14532d
   classDef gray fill:#f3f4f6,stroke:#6b7280,color:#374151
