@@ -3,7 +3,7 @@ title: "「動くプロトタイプ」を諦めて「静止画モック」に切
 emoji: "🎨"
 type: "tech"
 topics: ["claude", "ai", "デザイン", "ui", "開発効率化"]
-published: false
+published: true
 ---
 
 :::message alert
