@@ -15,12 +15,14 @@ Zenn 上で公開されている記事のソース（Markdown 形式）は、こ
 - [React + TypeScript で「保存ボタンを 2 回押さないと動かない」問題の解決方法](https://zenn.dev/yucco/articles/e25cdcd6e839b6)
 - [ドラッグ＆ドロップでリスト並び替え！@dnd-kit を使った実装の工夫](https://zenn.dev/yucco/articles/26463c7e00b2f6)
 - [1年半の成長を振り返ってストーリーにしてみた件](https://zenn.dev/yucco/articles/2025-06-25-growth-story)
+- [設計・実装上の課題を抱えたロードマップ機能を引き継ぎ、プロダクト標準に合わせて再構築した話](https://zenn.dev/yucco/articles/custom-learning-roadmap)
 
 #### 🤖 NEW! AI駆動開発体験シリーズ（2025/7/9公開）
 
 - [修行中エンジニアがAIツールを試してみたら想像以上にすごかった体験談](https://zenn.dev/yucco/articles/ai-development-automation-story)
 - [PlayWrightとTaskMasterで TODOアプリの自動構築デモ - 驚きの仕組みを調べてみた！](https://zenn.dev/yucco/articles/article-1-auto-build-demo)
 - [PlayWrightとTaskMasterで TODOアプリの自動バグ修正デモ - 驚きの仕組みを試してみた！](https://zenn.dev/yucco/articles/article-2-bug-fix-demo)
+- [「動くプロトタイプ」を諦めて「静止画モック」に切り替えたら、レビューが一瞬で終わった話](https://zenn.dev/yucco/articles/claude-design-ui-mockup-story)
 
 ---
 
