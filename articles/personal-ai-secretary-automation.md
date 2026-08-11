@@ -3,7 +3,7 @@ title: "未読1000件から始めた、自分専用の秘書づくり ―― 身
 emoji: "📬"
 type: "tech"
 topics: ["ai", "自動化", "gmail", "カレンダー", "github"]
-published: false
+published: true
 ---
 
 :::message
