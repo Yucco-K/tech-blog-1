@@ -16,13 +16,15 @@ Zenn 上で公開されている記事のソース（Markdown 形式）は、こ
 - [ドラッグ＆ドロップでリスト並び替え！@dnd-kit を使った実装の工夫](https://zenn.dev/yucco/articles/26463c7e00b2f6)
 - [1年半の成長を振り返ってストーリーにしてみた件](https://zenn.dev/yucco/articles/2025-06-25-growth-story)
 - [設計・実装上の課題を抱えたロードマップ機能を引き継ぎ、プロダクト標準に合わせて再構築した話](https://zenn.dev/yucco/articles/custom-learning-roadmap)
+- [未読1000件から始めた、自分専用の秘書づくり ―― 身近な繰り返し作業を自動化してみた](https://zenn.dev/yucco/articles/personal-ai-secretary-automation)
+- [個人開発の「あとで見直そう」が、実務のテストレビューでは通用しなかった話](https://zenn.dev/yucco/articles/backend-test-last-line-of-defense)
 
 #### 🤖 NEW! AI駆動開発体験シリーズ（2025/7/9公開）
 
 - [修行中エンジニアがAIツールを試してみたら想像以上にすごかった体験談](https://zenn.dev/yucco/articles/ai-development-automation-story)
 - [PlayWrightとTaskMasterで TODOアプリの自動構築デモ - 驚きの仕組みを調べてみた！](https://zenn.dev/yucco/articles/article-1-auto-build-demo)
 - [PlayWrightとTaskMasterで TODOアプリの自動バグ修正デモ - 驚きの仕組みを試してみた！](https://zenn.dev/yucco/articles/article-2-bug-fix-demo)
-- [「動くプロトタイプ」を諦めて「静止画モック」に切り替えたら、レビューが一瞬で終わった話](https://zenn.dev/yucco/articles/claude-design-ui-mockup-story)
+- [「動くプロトタイプ」を作るのをやめて「静止画3枚」にしたら、レビューがスムーズに終わった話](https://zenn.dev/yucco/articles/claude-design-ui-mockup-story)
 
 ---
 
